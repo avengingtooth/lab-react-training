@@ -36,3 +36,222 @@
     transform: rotate(360deg);
   }
 }
+
+/* iteration 1 */
+.idCard img{
+  width: 15%;
+  height: fit-content;
+}
+
+.idCard p{
+  margin: 2% 0 2% 0;
+}
+
+.idCard{
+  display: flex;
+  border: black 1px solid;
+  justify-content: left;
+  margin: 1%;
+  padding: 1%;
+}
+
+.info{
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  margin-left: 2%;
+}
+
+/* iteration 2 */
+/* iteration 3 */
+/* iteration 4 */
+.greetings, .random, .boxColor{
+  border: 1px solid black;
+  margin: 1%;
+  padding: 1%;
+}
+
+/* iteration 5 */
+/* .creditCard{
+  width: 30%;
+} */
+
+.allCreditCards{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin: 1%;
+  gap: 1%;
+  height: 30vh;
+}
+
+.personalInfo{
+  display: grid;
+  grid-template-columns: auto 1fr;
+  text-align: left;
+}
+.creditCard{
+  display: grid;
+  grid-template-rows: repeat(3, 1fr);
+  border-radius: 10%;
+  padding: 0 10% 0 10%;
+}
+
+.creditCard p{
+  margin: 0;
+}
+
+.cardLogo{
+  text-align: right;
+  align-self: center;
+}
+
+.cardLogo img{
+  width: 20%;
+  height: auto;
+}
+
+.cardNb{
+  align-self: center;
+  font-size: 2rem;
+}
+
+.cardNb span{
+  font-weight: bold;
+}
+
+/* iteration 6 */
+.rating{
+  font-size: 5rem;
+}
+
+/* iteration 7 */
+
+.driverCard{
+  display: flex;
+  justify-content: center;
+  background-color: rgb(71, 85, 218);
+  margin: 1%;
+  border-radius: 7px;
+}
+
+.driverCard > div{
+  padding: 1%;
+  width: 30%;
+  display: flex;
+  text-align: left;
+  align-items: center;
+  color: white;
+}
+
+.driverCard .rating{
+  font-size: 2rem;
+}
+
+.driverCard h1{
+  margin: 0;
+}
+
+.driverCard img{
+  width: 8vw;
+  height: 8vw;
+  clip-path: circle(50%)
+}
+
+/* iteration 10 */
+
+.dice{
+  width: 10%;
+}
+
+/* iteration 11 */
+
+.carousel{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.carousel > *{
+  width: 20%;
+}
+
+.carousel button{
+  width: 50%;
+}
+
+/* iteration 12 */
+
+.sqrCont{
+  margin: auto;
+  width: 50vw;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+}
+
+.sqr{
+  width: 10vw;
+  height: 10vw;
+  border: 2px black solid;
+}
+
+/* iteration 13 */
+
+.content{
+  display: grid;
+  grid-template-columns: auto 1fr;
+  align-items: baseline;  
+  text-align: left;
+}
+
+.content *{
+  margin: 0;
+}
+
+.person{
+  display: flex;
+  flex-direction: row;
+  border: black solid 1px;
+  margin: 1%;
+  padding: 1%;  
+  height: 10vw;
+}
+
+.pfp{
+  height: 100%;
+}
+
+/* iteration 14 */
+
+.selectedCountry{
+  background-color: rgba(138, 228, 255, 0.498);
+}
+
+/* iteration 15 */
+.signup > div{
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+.allInputs button{
+  width: 10vw;
+  background-color: #61dafb;
+
+}
+
+/* iteration 16 */
+.colorPicker{
+  width: 20px;
+  height: 20px;
+  border: 1px solid black;
+}
+
+.rgbColorPickers{
+  text-align: left;
+  padding: 5%;
+}
+
+.rgbColorPickers > div{
+  display: flex;
+  align-items: center;
+}
